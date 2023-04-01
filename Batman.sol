@@ -17,5 +17,7 @@ contract Batman is ERC20Capped, Ownable {
     function getOwner() external view returns(address) {
         return super.owner();
     }
+    
+    //buraya yeni fonksiyon gelecek
 
 }
